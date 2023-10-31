@@ -1,0 +1,60 @@
+body {
+  font-family: "professor-minty", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  background-image: url('pumpkin.jpg'); 
+  background-size: cover; 
+  margin-left: 700px;
+  padding: 0;
+}
+
+#app {
+  text-align: center;
+  margin: 50px auto;
+  max-width: 300px;
+  background-color: #ffffff; /* White container background */
+  border: 1px solid rgb(191, 89, 0); 
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 500px rgb(191, 89, 0); 
+}
+
+h1 {
+  font-family: "professor-minty", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(191, 89, 0);  /*text color */
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 5px;
+  margin: 10px 0;
+  border: 2px solid rgb(191, 89, 0);  /* border for input */
+  border-radius: 5px;
+}
+
+button {
+  font-family: "professor-minty", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  background-color: rgb(191, 89, 0);  /* button background */
+  color: #ffffff; /* White text color */
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: rgb(191, 89, 0);  /* on hover */
+}
+
+output {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0;
+  color: rgb(191, 89, 0);  /*text color */
+}
